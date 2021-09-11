@@ -28,6 +28,8 @@ A aplicação está hospedada na nuvem, com seu frontend hospedados no netlifly(
 # Como Executar a aplicação
 ## URL
 https://dsvendas-victor35.netlify.app/
+
+pode demorar um pouco para carregar, pois a versão do sistema de nuvem é a versão FREE.
 ## Backend
 ```bash
 
