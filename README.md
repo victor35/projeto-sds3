@@ -2,14 +2,14 @@
 
 # Sobre o projeto
 
-É uma aplicação simples de vendas. Tem intuito de aprender sobre tecnologias como o react, e seus pilares: state, hook e props. E também navegação de páginas além
-de consumir uma API. A ideia da API também tem o intuito de praticar Spring boot, a criação de um modelo de domínio, conexão de consulta com banco de dados através
-do Spring Data, a camada de serviços(services) o uso de DTO(data transfer objetcs) e a criação e exposição de verbos/rotas HTTP. 
+É uma aplicação simples de vendas. Tem o intuito de aprender sobre tecnologias como o react, e seus pilares: state, hook e props. E também navegação de páginas, além de consumir uma API. A ideia da API também tem o intuito de praticar Spring boot, a criação de um modelo de domínio, conexão de consulta com banco de dados através do Spring Data, a camada de serviços(services) o uso de DTO(data transfer objetcs) e a criação e exposição de verbos/rotas HTTP.
+
+A aplicação está hospedada na nuvem, com seu frontend hospedados no netlifly(https://www.netlify.com/) e o backend no heroku(https://dashboard.heroku.com/).
 
 # Layout
 ![Tela 1](https://github.com/victor35/projeto-sds3/blob/main/assets/tela1-projeto-sds3.png)
-![Tela 2](https://github.com/victor35/projeto-sds3/blob/main/assets/tela2-projeto-sds3.png)
-![Tela 3](https://github.com/victor35/projeto-sds3/blob/main/assets/tela3-projeto-sds3.png)
+![Tela 2](https://github.com/victor35/projeto-sds3/blob/main/assets/tela3-projeto-sds3.png)
+![Tela 3](https://github.com/victor35/projeto-sds3/blob/main/assets/tela2-projeto-sds3.png)
 ![Tela 4](https://github.com/victor35/projeto-sds3/blob/main/assets/tela4-projeto-sds3.png)
 
 # Tecnologias
@@ -18,6 +18,8 @@ do Spring Data, a camada de serviços(services) o uso de DTO(data transfer objet
   - Spring boot
   - Spring data
   - Spring security
+  - PostgreSql
+  - Banco de memória H2 do Spring Boot
 ## Frontend  
   - React
   - apex charts (para gráficos)
@@ -52,7 +54,7 @@ git clone https://github.com/victor35/projeto-sds3.git
 # entrar na pasta do projeto
 cd projetos-sds3/frontend
 
- baixar dependências via npm
+# baixar dependências via npm
 npm i
 
 # iniciar projeto
